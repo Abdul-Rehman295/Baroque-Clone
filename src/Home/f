@@ -1,0 +1,87 @@
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
+import './home.css'
+function Grid() {
+    
+  return (
+    <>
+      <div className="container-fluid my-2">
+      <Container style={{width:"82%"}}>
+      <Row>
+        <Col>
+       <Link to='/unstiched'><img src="https://cdn.shopify.com/s/files/1/2277/5269/files/banner_copy_550x.jpg?v=1680330542" alt="item_1" /></Link>
+        <p className='fw-bold text-center text-secondary my-2' style={{fontSize:"17px"}}>READY TO WEAR</p>
+        <Link to='/unstiched' style={{marginLeft:"125px",fontSize:"14px",textDecoration:"underline"}} className='a'>SHOP NOW</Link>
+        </Col>
+        <Col>
+        <Link to='/unstiched'> <img src="https://cdn.shopify.com/s/files/1/2277/5269/files/3a_550x.jpg?v=1680330907" alt="item_2" /></Link>
+        <p className='fw-bold text-center text-secondary my-2' style={{fontSize:"17px"}}>SWISS LAWN</p>  
+        <Link to="/unstiched" style={{marginLeft:"125px",fontSize:"14px",textDecoration:"underline"}} className='a'>SHOP NOW</Link>      
+        </Col>
+        <Col>
+        <Link to='/unstiched'> <img src="https://cdn.shopify.com/s/files/1/2277/5269/files/1aaae_7d70ba70-d270-4620-9607-50539edac36b_550x.jpg?v=1680330708" alt="item_3" /></Link>
+        <p className='fw-bold text-center text-secondary my-2' style={{fontSize:"17px"}}>DUPATTAS</p>     
+        <Link to="/unstiched" style={{marginLeft:"125px",fontSize:"14px",textDecoration:"underline"}} className='a'>SHOP NOW</Link>
+        </Col>
+      </Row>
+      <Row className='my-5'>
+        <Col>
+        <Link to='/unstiched'> <img src="https://cdn.shopify.com/s/files/1/2277/5269/files/6_b88be7d9-11bf-456b-90a4-2bde9ca3f52f_550x.jpg?v=1680330661" alt="item_4" /></Link>
+        <p className='fw-bold text-center text-secondary my-2' style={{fontSize:"17px"}}>CHANTELLE</p>  
+        <Link to='/unstiched' style={{marginLeft:"125px",fontSize:"14px",textDecoration:"underline"}} className='a'>SHOP NOW</Link>
+        </Col>
+        <Col>
+        <Link to='/unstiched'> <img src="https://cdn.shopify.com/s/files/1/2277/5269/files/bannerbvb_1e0d33ff-1708-4740-9666-f864beb5654b_550x.jpg?v=1679985851" alt="item_5" />
+        </Link>
+        <p className='fw-bold text-center text-secondary my-2' style={{fontSize:"17px"}}>BOTTOMS</p>  
+        <Link to='/unstiched' style={{marginLeft:"125px",fontSize:"14px",textDecoration:"underline"}} className='a'>SHOP NOW</Link>
+        </Col>
+        <Col>
+        <Link to='/unstiched'> <img src="https://cdn.shopify.com/s/files/1/2277/5269/files/12_d5a96aaa-b941-4ae2-b5f5-25e2d31f6199_550x.jpg?v=1679985029" alt="item_6" /></Link>   
+        <p className='fw-bold text-center text-secondary my-2' style={{fontSize:"17px"}}>SPECIAL PRICES</p>    
+        <Link to='/unstiched' style={{marginLeft:"125px",fontSize:"14px",textDecoration:"underline"}} className='a'>SHOP NOW</Link>
+        </Col>
+      </Row>
+      <Row style={{marginTop:"100px"}}>
+        <Col>
+        <img src="https://cdn.shopify.com/s/files/1/2277/5269/files/Style_guide_2_750x.jpg?v=1680255910" alt="BAROQUE" />
+        </Col>
+        <Col style={{backgroundColor:"#e5dfea"}}>
+        <h3 className='text-center fw-bold' style={{marginTop:"100px"}}> GET 5% OFF!</h3>
+       <p className='text-center text-secondary my-3'><small>SIGN UP NOW TO OUR NEWSLETTER</small></p>
+       <input type="text" className='mx-5 h-9 pl-2 w-50' style={{outline:"none"}}/>
+       <button className=' bg-black pl-5 pr-5 pt-2 pb-2 text-light' style={{marginLeft:"-47px"}}>
+            <small>
+                SING ME UP
+                </small>
+                </button>
+        </Col>
+      </Row>
+    </Container>
+      </div>
+      <br /><br />
+    </>
+  )
+}
+
+export default Grid
+{/* <img srcset="//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_375x.jpg?v=1682759745 375w,//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_550x.jpg?v=1682759745 550w,//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_750x.jpg?v=1682759745 750w,//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_1100x.jpg?v=1682759745 1100w,//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_1500x.jpg?v=1682759745 1500w,//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_1780x.jpg?v=1682759745 1780w,//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3.jpg?v=1682759745 1920w" sizes="100vw" src="//cdn.shopify.com/s/files/1/2277/5269/files/main_slider_desktop_8896dacc-f119-463e-a5bd-6471d87139e3_1500x.jpg?v=1682759745"  alt="" width="1920" height="889" /> */}
+{/* <img srcset="//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0_375x.jpg?v=1682759777 375w,//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0_550x.jpg?v=1682759777 550w,//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0.jpg?v=1682759777 600w" sizes="100vw" src="//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0_1500x.jpg?v=1682759777"  alt="" /> */}
+{/* <Carousel.Item>
+  <div className="dis-min">
+  <img srcset="//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0_375x.jpg?v=1682759777 375w,//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0_550x.jpg?v=1682759777 550w,//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0.jpg?v=1682759777 600w" sizes="100vw" src="//cdn.shopify.com/s/files/1/2277/5269/files/mobilek_91eaf3e9-ea23-4c86-8814-4f4efd6f8ce0_1500x.jpg?v=1682759777"  alt="" />
+  </div>
+   <Carousel.Caption>
+   <button className=' bg-black btn'>
+       <span >
+         SHOP NOW
+           </span>
+           </button>
+   </Carousel.Caption>
+ </Carousel.Item> */}
+ {/* <Carousel.Item>
+  <p className='text-light bg-black text-center pt-1 pb-1 fw-bold'>LAST DATE FOR STITCHING IS 26th MARCH AND FOR PRIORITY STITCHING IS 2nd APRIL , 2023</p>
+</Carousel.Item> */}

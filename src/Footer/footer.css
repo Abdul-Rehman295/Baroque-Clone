@@ -1,0 +1,50 @@
+.f-tag{
+    font-weight:300;
+    text-decoration: none;
+}
+.f-tag:hover{
+    text-decoration: underline;
+    color: black;
+    font-weight:600;
+}   
+.bg{
+    background-color:rgba(192,192,192,.3);
+}
+.con{
+    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.items{
+    color:gray;
+    font-size:0.8rem;
+    margin-bottom:1rem;
+    margin-left:1vw;
+}
+.s-media{
+    font-size:27px;
+    color:black;
+}
+.fa{
+    font-size:30px;
+    margin-top:6px;
+    margin-left: 5px;
+    cursor:pointer;
+}
+.bx{
+    cursor:pointer;
+}
+@media only screen and (max-width:750px){
+    .con{
+        flex-direction:column;
+    }
+    .span{
+        display: none;
+    }
+    .items{
+    text-align: center;
+    margin-bottom:2px;
+}
+}

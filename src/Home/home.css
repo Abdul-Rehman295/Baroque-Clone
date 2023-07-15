@@ -1,0 +1,160 @@
+/* Slider */
+.shopNow{
+    font-size:0.8rem;
+    text-decoration:underline;
+    color:black;
+    font-weight:200;
+    }
+    .shopNow:hover{
+        font-weight: 700;
+        color:black;
+        text-decoration: none;
+    }
+.sliderBtn{
+    padding: 10px 20px;
+    color:white;
+    border-radius:0px;
+    transition:.3s;
+}
+.dis-min{
+    display: none;
+    width:100vw;
+    height:50vh;
+    transition:.3s;
+}
+@media only screen and (max-width:750px){
+    .dis-max{
+        display: none;
+        transition:.3s;
+    }
+    .dis-min{
+        display: block;
+    }
+}
+
+/* Grid */
+.f-r{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: center;
+    width:100vw;
+    transition:.3s;
+}
+.catageory{
+    width:24.30vw;
+    margin-top:1rem;
+}
+.tag{
+    font-size:16px;
+}
+@media only screen and (max-width:1024px){
+    .f-r{
+        width:80vw;
+        gap:0.8rem;
+        padding-left:22px;
+    }
+    .catageory{
+        width:23vw;
+    }
+}
+@media only screen and (max-width:750px) {
+    .f-r{
+        width:100vw;
+        gap:1.6rem;
+    }
+     .catageory{
+        width:100vw;
+        margin-left:1.5rem;
+    }
+}
+@media only screen and (max-width:640px){
+     .catageory{
+        margin-right:20px;
+        margin-left:10px;
+    }
+}
+.newSelector{
+    width: 76vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+   padding-bottom:3rem;
+   padding-top:3rem;
+}
+.flex-item{
+width: 38vw;
+}
+.new-selector-input{
+    background-color:#e5dfea;
+}
+.new-selector-input h3{
+padding-top:100px;
+}
+.new-selector-input p{
+    margin-top:5px;
+    margin-bottom:15px;
+    font-size:1rem;
+}
+.new-selector-input input{
+    margin-left:5vw;
+    padding:7px;
+    outline: none;
+}
+.new-selector-input button{
+padding: 0.8rem 1.3rem;
+}
+@media only screen and (max-width:1050px ){
+    .new-selector-input input{
+        margin-left:3vw;
+        padding:5px;
+    }
+    .new-selector-input button{
+    padding: 0.5rem 0.8rem;
+    }
+}
+@media only screen and (max-width:950px ){
+    .new-selector-input h3{
+        padding-top:50px;
+        }
+    .new-selector-input input{
+        margin-left:4vw;
+        padding:3px;
+        width:16vw;
+    }
+    .new-selector-input button{
+    padding: 0.2rem 0.5rem;
+    }
+}
+@media only screen and (max-width:750px){
+    .newSelector{
+        padding-top: 0rem;
+    }
+    .flex-item{
+        width:80vw;
+    }
+    .new-selector-input{
+        height: 35vh;
+    }
+    .new-selector-input input{
+        margin-left:3.5rem;
+        padding:3px;
+        width:30vw;
+    }
+    .new-selector-input button{
+        padding: 0.6rem 1rem;
+        }
+}
+@media only screen and (max-width:500px){
+    .new-selector-input{
+        height: 25vh;
+    }
+    .new-selector-input input{
+        padding:3px;
+        width:30vw;
+    }
+    .new-selector-input button{
+        padding: 0.3rem 0.7rem;
+        }
+}

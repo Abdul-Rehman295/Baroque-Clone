@@ -1,0 +1,38 @@
+import React from 'react'
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './footer.css'
+function Footer() {
+  return (
+    <>
+      <div className='container-fluid' style={{backgroundColor:"rgba(192,192,192,.3"}}>
+        <Container style={{width:"90%"}} >
+            <Row>
+                <Col className='text-secondary pt-3 pb-3'>
+                <a href="https://www.sherry.com" className='a'>WHO WE ARE</a><span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>CONTACT US</a> <span className='pl-4 pr-4'>|</span> 
+                <a href="https://www.sherry.com" className='a'>OUR RESPONSIBILITY</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>EXCHANGE & REFUND</a><span className='pl-4 pr-4'>|</span> 
+                <a href="https://www.sherry.com" className='a'>EXCHANGE FORM</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>SHIPPING</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>LOOKBOOK</a> <span className='pl-4 pr-4'>|</span>
+                <br /><br />
+                <a href="https://www.sherry.com" className='a'>ORDER CANCELLATION FORM</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>TRACK YOUR ORDER</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>SERVICE WE PROVIDE</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>CAREERS</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>LEGAL</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>FAQ's</a> <span className='pl-4 pr-4'>|</span>
+                <a href="https://www.sherry.com" className='a'>PRIVACY & POLICY </a> 
+                <br /><br />
+                <div className='text-center' style={{fontSize:"27px",cursor:"pointer",color:"black" }}><i class='bx bxl-facebook-square'></i>&ensp;<i class='bx bxl-instagram'></i>&ensp;<i class='bx bxl-tiktok'></i></div>
+                 </Col>
+            </Row>
+        </Container>
+      </div>
+    </>
+  )
+}
+
+export default Footer
